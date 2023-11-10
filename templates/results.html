@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Similar Images</title>
+</head>
+<body>
+	<h1>Similar Images</h1>
+	{% for image in similar_images %}
+  <img src="{{image[0]}}" alt="Similar Image" width="300" height="300">
+	{% endfor %}
+</body>
+</html>
